@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Workify_Full")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e75541d421e13a1a5c9e437db74e65703206041b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Workify_Full")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Workify_Full")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
