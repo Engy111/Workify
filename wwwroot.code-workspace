@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "../../../Downloads/Workify-main/Workify-main/wwwroot"
+		},
+		{
+			"path": "../../../Downloads/Workify-main/Workify-main/obj"
+		},
+		{
+			"path": "../../../Downloads/Workify-main/Workify-main/bin"
+		},
+		{
+			"path": "../../../Downloads/Workify-main/Workify-main/Data"
+		},
+		{
+			"path": "../../../Downloads/Workify-main/Workify-main/Models"
+		},
+		{
+			"path": "../../../Downloads/Workify-main/Workify-main/Properties"
+		},
+		{
+			"path": "../../../Downloads/Workify-main/Workify-main/Views"
+		},
+		{
+			"path": "../../../Downloads/Workify-main/Workify-main/Areas"
+		},
+		{
+			"path": "../../../Downloads/Workify-main/Workify-main/Controllers"
+		}
+	]
+}
