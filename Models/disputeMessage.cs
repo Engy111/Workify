@@ -1,18 +1,25 @@
-using Microsoft.AspNetCore.Identity;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Workify_Full.Models
 {
     public class DisputeMessage
     {
-        public int Id { get; set; }
+        [Key]
+        public int DisputeMessageId { get; set; }
+        public string Body { get; set; } = string.Empty;
+        public DateTime SentAt { get; set; } = DateTime.UtcNow;
 
-        public string Message { get; set; } = string.Empty;
-
-        public DateTime SentAt { get; set; }
-
+        // Foreign Key -> Dispute
+        [Required]
         public int DisputeId { get; set; }
+        [ForeignKey("DisputeId")]
+        public Dispute? Dispute { get; set; }
 
+        // Foreign Key -> ApplicationUser
+        [Required]
         public string SenderId { get; set; } = string.Empty;
-        public IdentityUser? Sender { get; set; }
+        [ForeignKey("SenderId")]
+        public ApplicationUser? Sender { get; set; }
     }
 }
